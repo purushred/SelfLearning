@@ -1,13 +1,13 @@
+This Repository is a collection of material for self learning and improvements.
+
 Topics:
 -------
-Java Multi-threading
-Java Collection framework
-Spring, Hibernate, SQL
-Data Structures & Algorithms
-AWS Solution Architect Professional
-Azure Architect 
-
-Repository is a collection of material for self learning and improvements.
+Java Multi-threading <br>
+Java Collection framework <br>
+Spring, Hibernate, SQL <br>
+Data Structures & Algorithms <br>
+AWS Solution Architect Professional <br>
+Azure Architect <br>
 
 AWS Architecture best practices
 -------------------------------
