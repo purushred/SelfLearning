@@ -18,4 +18,27 @@ Destructuring Assignment <br>
 Modules, Classes, Iterators, Generators <br>
 Enhanced Object Properties <br>
 Support for Map/Set & WeakMap/WeakSet <br>
+    * Set
+       * Contains collection of unique values.
+       * Value can be primitives or object references.
+       Ex: let set = new Set():
+       set.add(10);
+       set.add(20);
+       set.add(30);
+       set.delete(30) -> return true
+       set.has(20) -> return true
+       set.forEach(item => console.log("Item:",item));
+       set.size;
+    * WeakMap
+       * It is like Map but the key must be an object.
+       * The object references are held weakly, meaning the objects will be eligible for GC if no references to the object.
+       * The keys are not enumerable like in Maps.
+       Ex: let weakMap = new WeakMap();
+           let obj1 = {"name":"Purushotham"}
+           let obj2 = {"age": 30}
+           weakMap.set(obj1, "Value1");
+           weakMap.set(obj2, "Value2");
+           weakMap.has(obj1) -> returns true
+           weakMap.delete(obj2) -> returns true
+      
 Promises, Meta-Programming ,Internationalization and Localization <br>
