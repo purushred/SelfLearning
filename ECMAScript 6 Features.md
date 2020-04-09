@@ -15,6 +15,12 @@ Extended Parameter Handling <br>
 Template Literals and Extended Literals <br>
 Enhanced Regular Expression <br>
 Destructuring Assignment <br>
+    * let arr = [10,20,30];
+      const [a,b,c] = arr;
+      let obj = {name:"Purush",age:30}
+      const {name, age} = obj;
+      let arr = [10,20,30,40,50]
+      const [a,b,...rest] = arr;
 Modules, Classes, Iterators, Generators <br>
 Enhanced Object Properties <br>
 Support for Map/Set & WeakMap/WeakSet <br>
